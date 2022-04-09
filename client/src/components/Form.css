@@ -1,0 +1,86 @@
+.form-container {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    border: #333 solid 1px;
+    border-radius: 20px;
+    min-width: 50vw;
+    min-height: 120vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+    padding-top: 6rem;
+}
+
+.close {
+    position: absolute;
+    right: 3%;
+    top: 1.3%;
+    cursor: pointer;
+    transform: rotate(45deg);
+    font-size: 1.5rem;
+}
+
+.save-recipe-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    background-color: #04023B;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.form-group label {
+    margin-right: 1.5rem;
+}
+
+.form-group input, textarea {
+    padding: 0.25rem;
+}
+
+.form-group table {
+    width: 400px;
+    padding: 2rem;
+}
+
+.add-recipe-btn {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.auto-complete {
+    margin: 0.5rem 0;
+}
+
+.auto-complete li {
+    list-style: none;
+    padding: 0.25rem;
+    border: 1px solid #888;
+    background-color: #ddd;
+}
+
+.form-container .heading {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    background-color: #ddd;
+    border-radius: 20px 20px 0 0;
+}
